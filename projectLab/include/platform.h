@@ -17,6 +17,7 @@
  * g_plain : not a terminal (piped/redirected) or NO_COLOR — also means
  *           no screen clearing, no delays and no "press Enter" pauses,
  *           so `house.exe > out.txt` produces clean plain text. */
+
 extern int g_ansi;
 extern int g_plain;
 

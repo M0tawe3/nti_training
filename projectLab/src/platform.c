@@ -6,6 +6,10 @@
  * Smart Home Console · Day 03 midterm — G9
  * Author: Ahmed Ellamie · ahmed.ellamiee@gmail.com
  */
+#ifndef _DEFAULT_SOURCE
+#  define _DEFAULT_SOURCE
+#endif
+
 #ifndef _WIN32
 #  define _POSIX_C_SOURCE 200809L   /* isatty() under -std=c99 */
 #endif
